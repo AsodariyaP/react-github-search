@@ -1,10 +1,11 @@
 import React from 'react';
 import Home from './pages/Home';
+import Header from "./components/Header";
 
 function App() {
   return (
     <>
-      <h1>Github Search Repository</h1>
+      <Header />
       <Home />
     </>
   );
